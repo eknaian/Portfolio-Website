@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap");
 
 * {
   box-sizing: border-box;
@@ -7,12 +7,13 @@
 }
 
 body {
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Merriweather", "serif";
   color: #333;
   line-height: 1.6;
   overflow-y: scroll;
   overflow-x: hidden;
   width: 100%;
+  color: #66bfbf;
 }
 
 ul {
@@ -21,7 +22,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #333;
+  color: #66bfbf;
 }
 
 h1,
@@ -29,10 +30,12 @@ h2 {
   font-weight: 300;
   line-height: 1.2;
   margin: 0.7rem 0;
+  font-family: "Montserrat", "sans-serif";
 }
 
 p {
   margin: 0.7rem;
+  font-family: "Montserrat", "sans-serif";
 }
 
 img {
@@ -48,7 +51,7 @@ img {
 /* Navbar */
 
 .navbar {
-  background: #e0ebe8;
+  background-color: #e4f9f5;
   max-height: fit-content;
   width: auto;
 }
@@ -57,19 +60,64 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 2.5rem;
 }
 
 .navbar .logo {
   padding-left: 2rem;
 }
 
+.navbar .logo h1 {
+  font-weight: 600;
+  line-height: 1.6;
+}
+
 .navbar .container ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 2rem;
 }
 
 .navbar .container ul li {
   padding-right: 1rem;
+}
+
+/* name section */
+
+.name-section {
+  background-color: #e4f9f5;
+}
+
+.name-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name-text h1 {
+  font-family: "Sacramento", cursive;
+  line-height: 2;
+  font-size: 6rem;
+}
+
+.name-text p {
+  text-align: center;
+  font-size: 1.3rem;
+}
+.first-cloud {
+  padding-top: 6rem;
+}
+.second-cloud {
+  padding-bottom: 8rem;
+}
+
+/* Mountain section */
+.mountain-section {
+  background-color: #e4f9f5;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.mountain-section img {
+  width: 80%;
 }
