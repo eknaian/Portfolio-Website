@@ -85,7 +85,7 @@ hr {
 }
 
 .navbar .container ul li {
-  padding-right: 1rem;
+  padding-right: 3rem;
 }
 
 /* name section */
@@ -152,6 +152,7 @@ hr {
 }
 
 .intro-description {
+  line-height: 2;
   width: 29rem;
   color: rgb(134, 129, 129);
 }
@@ -199,6 +200,7 @@ hr {
 }
 
 .middle-section p {
+  line-height: 2;
   width: 29rem;
   color: rgb(134, 129, 129);
 }
@@ -221,6 +223,7 @@ hr {
 }
 
 .bottom-section p {
+  line-height: 2;
   width: 40rem;
   color: rgb(134, 129, 129);
   padding-bottom: 2rem;
