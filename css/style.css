@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Merriweather&family=Montserrat&family=Sacramento&display=swap");
 
 * {
   box-sizing: border-box;
@@ -27,14 +27,20 @@ a {
 
 h1,
 h2 {
-  font-weight: 300;
+  font-weight: 800;
   line-height: 1.2;
   margin: 0.7rem 0;
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Hubballi", "sans-serif";
+}
+
+h3 {
+  font-family: "Hubballi", "sans-serif";
+  font-size: 1.3rem;
 }
 
 p {
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Hubballi", "sans-serif";
+  font-size: 1.3rem;
 }
 
 img {
@@ -74,6 +80,7 @@ hr {
 }
 
 .navbar .logo h1 {
+  font-size: 3rem;
   font-weight: 600;
   line-height: 1.6;
 }
@@ -108,7 +115,7 @@ hr {
 
 .name-text p {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 .first-cloud {
   padding-top: 6rem;
@@ -209,6 +216,7 @@ hr {
 
 .bottom-section {
   text-align: center;
+  padding-bottom: 3rem;
 }
 
 .bottom-section h1 {
@@ -261,4 +269,50 @@ hr {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+/* Footer */
+.footer {
+  background-color: #b0e0d1;
+  height: 8rem;
+}
+
+.footer a {
+  color: #459674;
+}
+
+.footer-links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.footer-links ul li {
+  padding-right: 5rem;
+}
+
+@media (max-width: 768px) {
+  .navbar .logo h1 {
+    font-size: 2.4rem;
+  }
+
+  .top-middle,
+  .bottom-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .middle-section h2,
+  .middle-section p {
+    text-align: center;
+  }
+
+  .bottom-content h3 {
+    line-height: 2;
+    width: 29rem;
+    color: rgb(134, 129, 129);
+    padding-bottom: 3rem;
+  }
 }
